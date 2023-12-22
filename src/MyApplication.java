@@ -20,6 +20,7 @@ public class MyApplication {
         }
 
         System.out.println("perimeter: " + shape.calculatePerimeter());
-        System.out.println("");
+        System.out.println("longest: " + shape.getLongestSide());
+        System.out.println("average: " + shape.getAverageSide());
     }
 }
